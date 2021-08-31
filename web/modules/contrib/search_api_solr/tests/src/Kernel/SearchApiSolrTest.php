@@ -140,7 +140,7 @@ class SearchApiSolrTest extends BackendTestBase {
       parent::testBackend();
     }
     else {
-      $this->assertTrue(TRUE, 'Error: The Solr instance could not be found. Please enable a multi-core one on http://localhost:8983/solr/drupal');
+      $this->assertTrue(TRUE, 'Error: The Solr instance could not be found. Please enable a multi-core one on http://localhost:8983/solr/d8');
     }
   }
 
@@ -593,7 +593,7 @@ class SearchApiSolrTest extends BackendTestBase {
 
     }
     else {
-      $this->assertTrue(TRUE, 'Error: The Solr instance could not be found. Please enable a multi-core one on http://localhost:8983/solr/drupal');
+      $this->assertTrue(TRUE, 'Error: The Solr instance could not be found. Please enable a multi-core one on http://localhost:8983/solr/d8');
     }
   }
 
@@ -676,7 +676,7 @@ class SearchApiSolrTest extends BackendTestBase {
       }
     }
     else {
-      $this->assertTrue(TRUE, 'Error: The Solr instance could not be found. Please enable a multi-core one on http://localhost:8983/solr/drupal');
+      $this->assertTrue(TRUE, 'Error: The Solr instance could not be found. Please enable a multi-core one on http://localhost:8983/solr/d8');
     }
   }
 
@@ -797,7 +797,7 @@ class SearchApiSolrTest extends BackendTestBase {
       $this->assertResults([7, 6, 5, 4, 3, 2, 1], $results, 'Sort by last update date descending');
     }
     else {
-      $this->assertTrue(TRUE, 'Error: The Solr instance could not be found. Please enable a multi-core one on http://localhost:8983/solr/drupal');
+      $this->assertTrue(TRUE, 'Error: The Solr instance could not be found. Please enable a multi-core one on http://localhost:8983/solr/d8');
     }
   }
 
@@ -859,7 +859,7 @@ class SearchApiSolrTest extends BackendTestBase {
       $this->assertEquals(0, $suggestions[4]->getResultsCount());
     }
     else {
-      $this->assertTrue(TRUE, 'Error: The Solr instance could not be found. Please enable a multi-core one on http://localhost:8983/solr/drupal');
+      $this->assertTrue(TRUE, 'Error: The Solr instance could not be found. Please enable a multi-core one on http://localhost:8983/solr/d8');
     }
   }
 
@@ -916,7 +916,7 @@ class SearchApiSolrTest extends BackendTestBase {
       $this->assertResults([1], $results, 'Ngram string "Dog".');
     }
     else {
-      $this->assertTrue(TRUE, 'Error: The Solr instance could not be found. Please enable a multi-core one on http://localhost:8983/solr/drupal');
+      $this->assertTrue(TRUE, 'Error: The Solr instance could not be found. Please enable a multi-core one on http://localhost:8983/solr/d8');
     }
   }
 

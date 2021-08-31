@@ -5,7 +5,7 @@
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
-        'reference' => 'b7c360c6d2b820db50e1a163e4cbc8f5c2eb109c',
+        'reference' => 'a7e7de68e230af0302d9889c625caea975e888f9',
         'name' => 'pantheon-systems/example-drops-8-composer',
         'dev' => true,
     ),
@@ -848,12 +848,12 @@
             'dev_requirement' => false,
         ),
         'drupal/search_api_solr' => array(
-            'pretty_version' => '1.7.0',
-            'version' => '1.7.0.0',
+            'pretty_version' => '1.6.0',
+            'version' => '1.6.0.0',
             'type' => 'drupal-module',
             'install_path' => __DIR__ . '/../../web/modules/contrib/search_api_solr',
             'aliases' => array(),
-            'reference' => '8.x-1.7',
+            'reference' => '8.x-1.6',
             'dev_requirement' => false,
         ),
         'drupal/serialization' => array(
@@ -1195,7 +1195,7 @@
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
-            'reference' => 'b7c360c6d2b820db50e1a163e4cbc8f5c2eb109c',
+            'reference' => 'a7e7de68e230af0302d9889c625caea975e888f9',
             'dev_requirement' => false,
         ),
         'pantheon-systems/quicksilver-pushback' => array(
