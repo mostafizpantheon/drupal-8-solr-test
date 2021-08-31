@@ -1,0 +1,14 @@
+uuid: 0c4889b3-4ecc-43d3-b6d5-05a5c512bb8e
+name: drupal-8-solr-test
+mail: csemrm@gmail.com
+slogan: ''
+page:
+  403: ''
+  404: ''
+  front: /node
+admin_compact_mode: false
+weight_select_max: 100
+langcode: en
+default_langcode: en
+_core:
+  default_config_hash: yTxtFqBHnEWxQswuWvkjE8mKw2t8oKuCL1q8KnfHuGE
