@@ -17,6 +17,7 @@
         "drupal/core-recommended": "^8.8",
         "drupal/media_alias_display": "^1.0",
         "drupal/media_download_path": "^2.1",
+        "drupal/pathauto": "^1.8",
         "drush-ops/behat-drush-endpoint": "^9.3",
         "drush/drush": "^8.4.5",
         "pantheon-systems/drupal-integrations": "^8",
